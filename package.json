@@ -1,20 +1,27 @@
 {
   "name": "edikurum",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.0.0",
+  "homepage": "./",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.0.0",
     "@testing-library/user-event": "^13.2.1",
     "@types/jest": "^27.0.1",
-    "@types/node": "^16.7.13",
-    "@types/react": "^17.0.20",
-    "@types/react-dom": "^17.0.9",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "5.0.0",
-    "typescript": "^4.4.2",
-    "web-vitals": "^2.1.0"
+    "web-vitals": "^2.1.0",
+    "@ant-design/icons": "^4.7.0",
+    "highlight.js": "^11.4.0",
+    "markdown-it": "^12.3.2",
+    "markdown-it-abbr": "^1.0.4",
+    "markdown-it-deflist": "^2.1.0",
+    "markdown-it-emoji": "^2.0.0",
+    "markdown-it-footnote": "^3.0.3",
+    "markdown-it-ins": "^3.0.1",
+    "markdown-it-mark": "^3.0.1",
+    "markdown-it-sub": "^1.0.0",
+    "markdown-it-sup": "^1.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -39,5 +46,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/markdown-it": "^12.2.3",
+    "@types/markdown-it-emoji": "^2.0.2",
+    "@types/node": "^17.0.2",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "typescript": "^4.4.2"
   }
 }

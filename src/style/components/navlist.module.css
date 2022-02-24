@@ -1,0 +1,10 @@
+.nav {
+  padding: 4px 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.nav span {
+  margin-right: 10px;
+}
